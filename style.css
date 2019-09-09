@@ -1,0 +1,62 @@
+body {
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Manjari', sans-serif;
+    text-align: center
+}
+
+/*--------------------WELCOME INDEX SITE - HEADER ----------*/
+
+header, footer {
+    background-color: rgba(212, 211, 211, 0.925);
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 3% 1%;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding-right: 1%;
+    letter-spacing: 0.2em;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+.blabla {
+    line-height: 1.7em;
+    padding: 0 20%;
+}
+
+footer p {
+    text-align: center;
+    padding: 0.5% 0;
+}
+
+/*----------------------------- ABOUT --------------------------------*/
+
+.foto {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 40%;
+    width: 20%;
+    border-radius: 100%;
+}

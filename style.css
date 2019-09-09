@@ -61,7 +61,6 @@ img {
     width: 20%;
     border-radius: 100%;
 }
-
 /*----------------------------- MOVIES --------------------------------*/
 
 .movies {
@@ -84,4 +83,17 @@ img {
     }
 .movies td {
     background-color: rgb(100, 93, 93);
+}
+
+/*----------------------------- LINKS - WEBSITES --------------------------------*/
+
+.websites ul {
+    text-align: left;
+    line-height: 1.7em;
+    padding-left: 5%;
+    width: 70%;
+}
+
+.websites ul li {
+    display: block;
 }

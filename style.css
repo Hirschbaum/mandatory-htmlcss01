@@ -38,10 +38,23 @@ a {
     font-weight: 700;
 }
 
+h4 {
+    letter-spacing: 0.3em;
+}
+.welcome-text {
+    text-align: center;
+    width: 70%;
+    padding: 0 15%;
+    line-height: 1.7em;
+    font-size: 17px;
+    font-weight: 700;
+}
+
 /*      ----- this class stands for all texts, paragraphs -----*/
 .blabla {
     line-height: 1.7em;
     padding: 0 20%;
+    text-align: left;
 }
 
 footer p {
@@ -58,7 +71,7 @@ footer p {
 
 img {
     height: 40%;
-    width: 20%;
+    width: 30%;
     border-radius: 100%;
 }
 /*----------------------------- MOVIES --------------------------------*/
@@ -96,4 +109,35 @@ img {
 
 .websites ul li {
     display: block;
+}
+
+small {
+    color: rgb(155, 153, 153);
+    font-style: oblique;
+}
+
+/*---------------------------- CONTACT ---------------------------*/
+
+input[type=text], input[type=email], select, textarea {
+    width: 30%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4%;
+    margin: 0.5% 35%;
+    padding: 1%;
+}
+
+label {
+    padding: 0.5% 0%;
+}
+
+input[type=submit] {
+    padding: 0.5% 1%;
+    border: 1px solid #000;
+    border-radius: 7%;
+    color: #fff;
+    background-color: black;
+    letter-spacing: 0.1em;
+    font-weight: 700;
 }

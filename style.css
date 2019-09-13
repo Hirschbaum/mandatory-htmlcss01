@@ -1,4 +1,4 @@
-body {
+* {
     max-width: 1000px;
     margin: auto;
     font-family: 'Manjari', sans-serif;
@@ -8,13 +8,19 @@ body {
 /*--------------------WELCOME INDEX SITE - HEADER ----------*/
 
 header, footer {
-    background-color: rgba(212, 211, 211, 0.925);
+    background-image: url(./img/erda-estremera-unsplash.jpg);
     font-family: 'Quicksand', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    padding: 2%;
 }
 
 h1 {
     text-align: center;
-    padding: 3% 1%;
+    padding: 5% 1% 1% 1%;
     letter-spacing: 0.4em;
     text-transform: uppercase;
 }
@@ -37,9 +43,38 @@ a {
     color: #000;
     font-weight: 700;
 }
+/*-------------------- navigation: LOve F HAte----------*/
+
+header a:link {
+    color: rgb(21, 87, 230);
+}
+
+header a:visited {
+    color: rgb(247, 10, 10);
+}
+
+header a:focus {
+    border: 1px soli red;
+    background-color: yellow;
+    color: #000;
+}
+
+header a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+header a:active {
+    color: rgb(240, 240, 15);
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+/*----------- h4: headline on every site --------*/
 
 h4 {
     letter-spacing: 0.3em;
+    line-height: 1.9em;
 }
 .welcome-text {
     text-align: center;
@@ -50,11 +85,12 @@ h4 {
     font-weight: 700;
 }
 
-/*      ----- this class stands for all texts, paragraphs -----*/
+/*--------------- this class stands for all texts, paragraphs -----*/
+
 .blabla {
     line-height: 1.7em;
     padding: 0 20%;
-    text-align: left;
+    text-align: justify;
 }
 
 footer p {
@@ -72,8 +108,9 @@ footer p {
 img {
     height: 40%;
     width: 30%;
-    border-radius: 100%;
+    border-radius: 5%;
 }
+
 /*----------------------------- MOVIES --------------------------------*/
 
 .movies {
@@ -86,29 +123,35 @@ img {
     text-transform: uppercase;
     letter-spacing: 0.5em;
     font-weight: 700;
+    background-color: rgb(247, 10, 10);
+    color: #fff;
+    padding: 1.5%;
 }
 
-.movies th, .movies td {
-    color: #fff;
-    background-color: rgb(218, 76, 76); 
+.movies td {
+    background-color: rgb(213, 232, 241);
+    color: #000; 
     padding: 1.5%;
     text-align: center;
     }
-.movies td {
-    background-color: rgb(100, 93, 93);
-}
 
 /*----------------------------- LINKS - WEBSITES --------------------------------*/
 
-.websites ul {
-    text-align: left;
+#websites ul {
     line-height: 1.7em;
     padding-left: 5%;
-    width: 70%;
+    text-align: left;
 }
 
-.websites ul li {
+#websites li {
     display: block;
+    text-align: left;
+    padding-left: 5%;
+}
+
+#websites ul li {
+    display: block;
+    text-align: left;
 }
 
 small {
